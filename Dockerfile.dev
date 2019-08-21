@@ -3,9 +3,5 @@ WORKDIR /app
 COPY package.json .
 RUN npm install
 COPY . .
-<<<<<<< HEAD
-CMD ["npm" , "run", "start"]
-=======
 CMD ["npm" , "run", "start"]
 
->>>>>>> cd3456fe5981a8d559500a73c6ea889ecc9eac1b
